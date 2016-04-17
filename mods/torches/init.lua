@@ -1,3 +1,7 @@
+
+--Use default torch in game 
+minetest.register_alias("default:torch", "torches:torch")
+
 local VIEW_DISTANCE = 13 
 
 local null = {x=0, y=0, z=0}
